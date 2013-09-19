@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Glimpse.Castle.Windsor</id>
+        <version>1.0.0</version>
+        <title>Glimpse for Castle Windsor</title>
+        <authors>Nicholas Hammond</authors>
+        <owners>Hammond</owners>
+        <licenseUrl>https://raw.github.com/nicholasham/Glimpse.Castle.Windsor/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/nicholasham/Glimpse.Castle.Windsor</projectUrl>
+		<iconUrl>https://raw.github.com/wiki/Glimpse/Glimpse/images/Glimpse512.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A Glimpse plugin to show the resolutions for the page</description>
+        <releaseNotes></releaseNotes>
+        <tags>glimpse castle.windsor</tags>
+        <dependencies>
+            <dependency id="Glimpse" version="1.6.1" />
+            <dependency id="Castle.Windsor" version="3.2.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\Glimpse.Autofac\bin\Release\Glimpse.Castle.Windsor.dll" target="lib\net40\Glimpse.Castle.Windsor.dll" />
+        <file src="..\Glimpse.Autofac\bin\Release\Glimpse.Castle.Windsor.pdb" target="lib\net40\Glimpse.Castle.Windsor.pdb" />
+        <file src="..\Glimpse.Autofac\bin\Release\Glimpse.Castle.Windsor.XML" target="lib\net40\Glimpse.Castle.Windsor.XML" />
+        <file src="readme.txt" target="readme.txt" />
+    </files>
+</package>
