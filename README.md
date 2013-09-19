@@ -1,4 +1,4 @@
 Glimpse.Castle.Windsor
 ======================
 
-A Glimpse plugin to for Castle Windsor V3
+A Glimpse plugin for Castle Windsor V3
